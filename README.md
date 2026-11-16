@@ -21,7 +21,7 @@ El precio de una casa depende de sus características y también del lugar donde
 Trabajo final del módulo *Transporte y Hogares + Machine Learning* del **Diplomado en Análisis Espacial de Datos, Facultad de Arquitectura y Urbanismo, Universidad de Chile** (octubre de 2026).
 
 📄 **[Leer el informe completo (PDF)](Informe_Precio_Vivienda_Santiago.pdf)**
-🗺️ **[Abrir el mapa interactivo de plazas](mapa_plazas_interactivo.html)** (descargalo y abrilo en el navegador)
+🗺️ **[Abrir el mapa interactivo de plazas](https://geografaengelman-dev.github.io/precio-vivienda-santiago/mapa_plazas_interactivo.html)**
 
 ## 🗂️ Datos
 
@@ -45,7 +45,7 @@ Todas las capas se proyectaron a UTM 19S (EPSG:32719). Cada venta se unió a su 
 
 ## 📊 Resultados
 
-<p align="center"><img src="figuras/fig1_precios.png" alt="Precio mediano por zona censal en UF y en UF/m2" width="900"></p>
+<p align="center"><img src="fig1_precios.png" alt="Precio mediano por zona censal en UF y en UF/m2" width="900"></p>
 <p align="center"><sub>Precio mediano por zona censal. Los quintiles más altos se concentran en el cono oriente.</sub></p>
 
 - 🎓 **Un año más de escolaridad promedio en la zona** se asocia con un precio **19 % mayor**.
@@ -53,15 +53,15 @@ Todas las capas se proyectaron a UTM 19S (EPSG:32719). Cada venta se unió a su 
 - 🌳 La accesibilidad a áreas verdes tiene un **efecto pequeño y sensible a cómo se mide**: las medidas regionales pierden significancia al controlar por el nivel socioeconómico; las locales se mantienen.
 - 🤖 El machine learning baja el error (MAE) de **921 a unas 750 UF** en barrios conocidos, pero **esa ventaja desaparece en sectores no vistos**, donde la regresión generaliza igual o mejor (R² 0,82).
 
-<p align="center"><img src="figuras/fig6_residuos.png" alt="Residuos por zona: MCO 3 frente a random forest con coordenadas" width="900"></p>
+<p align="center"><img src="fig6_residuos.png" alt="Residuos por zona: MCO 3 frente a random forest con coordenadas" width="900"></p>
 <p align="center"><sub>Los residuos de la regresión están agrupados (I de Moran = 0,29); los del random forest con coordenadas, no (I = 0,01).</sub></p>
 
 <details>
 <summary>Ver más figuras</summary>
 
-<p align="center"><img src="figuras/fig2_accesibilidad.png" alt="Medidas de accesibilidad a áreas verdes" width="800"></p>
-<p align="center"><img src="figuras/fig3_zonales.png" alt="Atributos zonales del Censo 2017" width="800"></p>
-<p align="center"><img src="figuras/fig5_importancia.png" alt="Importancia de variables del random forest" width="700"></p>
+<p align="center"><img src="fig2_accesibilidad.png" alt="Medidas de accesibilidad a áreas verdes" width="800"></p>
+<p align="center"><img src="fig3_zonales.png" alt="Atributos zonales del Censo 2017" width="800"></p>
+<p align="center"><img src="fig5_importancia.png" alt="Importancia de variables del random forest" width="700"></p>
 
 </details>
 
@@ -78,7 +78,7 @@ Todas las capas se proyectaron a UTM 19S (EPSG:32719). Cada venta se unió a su 
 ├── README.md
 ├── Informe_Precio_Vivienda_Santiago.pdf
 ├── mapa_plazas_interactivo.html
-└── figuras/
+└── fig1 … fig6 (figuras del informe, .png)
 ```
 
 Los datos de ventas y el material del curso no se incluyen porque fueron provistos por el diplomado (prof. Tomás Cox).
@@ -87,6 +87,12 @@ Los datos de ventas y el material del curso no se incluyen porque fueron provist
 
 <p align="center">
   <b>Anabella Engelman</b> · Geógrafa · Análisis espacial de datos<br/>
+  <a href="https://github.com/geografaengelman-dev">GitHub</a> ·
+  <a href="https://www.linkedin.com/in/anabella-engelman-ab1aaa80/">LinkedIn</a> ·
+  <a href="mailto:geografaengelman@gmail.com">geografaengelman@gmail.com</a>
+</p>
+
+<p align="center"><sub>© 2026 Anabella Engelman. Todos los derechos reservados.</sub></p>
   <a href="https://github.com/geografaengelman-dev">GitHub</a> ·
   <a href="https://www.linkedin.com/in/anabella-engelman-ab1aaa80/">LinkedIn</a> ·
   <a href="mailto:geografaengelman@gmail.com">geografaengelman@gmail.com</a>
